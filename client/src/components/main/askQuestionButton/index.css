@@ -1,0 +1,8 @@
+.ask-question-btn {
+  align-items: center;
+}
+  
+.ask-question-btn:hover {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}

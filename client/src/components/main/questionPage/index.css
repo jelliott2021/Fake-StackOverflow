@@ -1,0 +1,33 @@
+.question-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #1e1e2f;
+}
+
+.question-content {
+  flex-grow: 1;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 24px;
+  padding: 0px 20px 0px 20px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.no-questions {
+  text-align: center;
+  margin: 20px 0;
+}

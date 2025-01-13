@@ -1,0 +1,43 @@
+.question-container {
+  display: 'flex'; 
+  flex-direction: 'row';
+  gap: '16px';
+}
+
+.question-body-content {
+  flex: 1;
+  background-color: #ffffff;
+}
+
+.question-meta-container {
+  text-align: right;
+  min-width: 120px;
+}
+
+.question-meta {
+  color: #888888;
+  font-size: 12px;
+}
+
+.question-author {
+  color: #f56a00;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.question-tags {
+  margin-top: 8px;
+}
+
+.ant-tag {
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.ant-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.ant-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}

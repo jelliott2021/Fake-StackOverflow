@@ -1,0 +1,11 @@
+.ant-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.ant-card:hover {
+  transform: translateY(-5px);
+}
+
+.ant-badge-ribbon {
+  top: -10px !important;
+}
